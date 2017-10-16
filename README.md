@@ -11,7 +11,7 @@ socket.io implementation for Vuejs 2 and Vuex
 ## Install
 
 ``` bash
-npm install vue-socket.io --save
+npm install vue-socket-path.io --save
 ```
 
 ## Usage
