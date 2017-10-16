@@ -21,6 +21,21 @@ Automatic socket connection from an URL string
 import VueSocketio from 'vue-socket.io';
 Vue.use(VueSocketio, 'http://socketserver.com:1923');
 ```
+or with namespace
+``` js
+import VueSocketio from 'vue-socket.io';
+Vue.use(VueSocketio, 'http://socketserver.com:1923/namespace');
+```
+or with urlPath
+``` js
+import VueSocketio from 'vue-socket.io';
+Vue.use(VueSocketio, { url: 'http://socketserver.com:1923', path: '/your_path' });
+```
+or with both namespace & urlPath
+``` js
+import VueSocketio from 'vue-socket.io';
+Vue.use(VueSocketio, { url: 'http://socketserver.com:1923/namespace', path: '/your_path' });
+```
 
 Bind custom socket.io-client instance
 ``` js
